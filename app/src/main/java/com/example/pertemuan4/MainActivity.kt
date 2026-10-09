@@ -17,7 +17,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pertemuan4Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Empty for now
+                    ActivitasPertama(
+                        modifier = Modifier.padding(innerPadding)
+                    )
                 }
             }
         }
